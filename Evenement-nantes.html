@@ -177,6 +177,7 @@
 
 	<ul v-if="layout == 'grid'" class="grid">
 		<!-- A view with big photos and no text -->
+        
 		<li v-for="a in filteredArticles">
 			<a v-bind:href="a.fields.lien_agenda" target="_blank"><img v-bind:src="a.fields.media_1" /></a>
 		</li>
